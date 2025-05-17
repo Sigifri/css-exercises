@@ -1,0 +1,23 @@
+.odd {background-color: rgb(255, 167, 181);
+      font-family: Verdana, "DejaVu Sans", sans-serif;
+      }
+
+#second {color: #0000ff;
+         font-size: 36px;
+        }
+
+.plus {font-size: 24px;
+          }
+
+/*
+   In the id selector 'four' below, we could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
+#fourth {background-color: hsl(120, 73%, 75%);
+         font-weight: bold;
+        }
